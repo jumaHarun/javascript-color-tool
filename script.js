@@ -107,9 +107,6 @@ slider.addEventListener('input', () => {
 const reset = () => {
   slider.value = 0;
   sliderText.innerText = `0%`;
-  let hex = hexInput.value
-  const strippedHex = hex.replace('#', '')
-  hex = '#' + hex
-  alteredColor.style.backgroundColor = hex;
-  alteredColorText.innerText = `Altered Color ${hex}`;
+  alteredColor.style.backgroundColor = hexInput.value;
+  alteredColorText.innerText = `Altered Color ${hexInput.value}`;
 }
