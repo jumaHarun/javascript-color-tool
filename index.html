@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Color Tool</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Lighten/Darken Color</h1>
+            
+            <label for="hex">Color (Hex)</label>
+            <input name="hex" id="hexInput" type="text" placeholder="#000000" value="#c6d5ac">
+      
+            <div class="toggle">
+              <p id="ligthenText" class="toggle-text">Ligthen</p>
+              
+              <div class="toggle-btn" id="toggleBtn">
+                <div class="inner-circle"></div>
+              </div>
+              
+              <p id="darkenText" class="toggle-text unselected">Darken</p>
+            </div>
+            
+            <label for="slider" id="sliderText">0%</label>
+            <input type="range" min="0" max="100" value="0"
+                    class="slider" id="slider" name="slider">
+            
+            <p>Input Color</p>
+            <div id="inputClr" class="box"></div>
+            
+            <p id="alteredClrText">Altered Color</p>
+            <div id="alteredClr" class="box"></div>
+        </div>
+
+        <script src=""></script>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Vollkorn SC', serif;
+    background-color: #3c4660;
+    color: #fff;
+}
+
+.container {
+    padding:  0 10px;
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.4em;
+    margin: 20px;
+    color: #d6d5ac;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 1.2rem;
+}
+
+input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.box {
+    height: 100px;
+    width: 100%;
+    background-color: #c6d5ac;
+    margin: 1rem 0;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.toggle-text {
+  font-size: 18px;
+}
+
+.toggle-btn {
+  height: 30px;
+  width: 60px;
+  background: #000822;
+  border-radius: 30px;
+  margin-inline: 10px;
+  padding: 5px;
+}
+
+.inner-circle {
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  border-radius: 50%;
+  transition: all 250ms;
+}
+
+.toggle-btn.toggled > .inner-circle {
+  transform: translateX(30px);
+  background: #707070;
+}
+
+.unselected {
+  opacity: .25;
+}
