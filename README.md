@@ -5,7 +5,7 @@ A javascript color tool that lightens or darkens colors using percentage
 
 ## Screenshot
 
-![picture of javascript color tool](jumaHarun/javascript-color-tool/javaScript-color-tool.png)
+![picture of javascript color tool](Screenshot.jpg "Vanilla javascript color tool")
 
 ## Built with
 
