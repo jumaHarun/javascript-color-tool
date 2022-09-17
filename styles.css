@@ -86,6 +86,21 @@ input[type="text"] {
   opacity: .25;
 }
 
+.examples {
+  font-size: 12px;
+  font-family: 'Courier New', times;
+  display: block;
+  padding-bottom: 10px;
+  color: rgba(204, 255, 0, .3);
+}
+
+.examples > a,
+.examples > a:visited,
+.examples > a:hover{
+  color: #c6d5ac;
+  cursor: pointer;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
     font-size: 75%;
@@ -97,5 +112,9 @@ input[type="text"] {
   
   .toggle-btn {
     transform: scale(0.8);
+  }
+  
+  .examples {
+    display: none;
   }
 }
