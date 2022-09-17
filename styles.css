@@ -103,7 +103,7 @@ input[type="text"] {
 
 @media (max-width: 480px) {
   .container {
-    font-size: 75%;
+    font-size: 80%;
   }
   
   .box {
