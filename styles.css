@@ -101,13 +101,13 @@ input[type="text"] {
   cursor: pointer;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
   .container {
     font-size: 75%;
   }
   
   .box {
-    height: 85px;
+    height: 75px;
   }
   
   .toggle-btn {
