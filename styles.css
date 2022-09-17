@@ -23,7 +23,7 @@ body {
 .title {
     text-align: center;
     font-size: 2.4em;
-    padding-inline: 1rem;
+    padding: 1rem;
     color: #d6d5ac;
 }
 
