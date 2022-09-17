@@ -20,8 +20,14 @@ body {
 .title {
     text-align: center;
     font-size: 2.4em;
-    margin: 20px;
+    padding-inline: 1rem;
     color: #d6d5ac;
+}
+
+@media (min-width: 20rem) and (max-width: 30rem) {
+  .title {
+    font-size: 1.8em;
+  }
 }
 
 label {
